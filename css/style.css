@@ -1,0 +1,145 @@
+/* general styles */
+body {
+  font-family: "Nunito", sans-serif;
+}
+h2:hover{
+color:#12d640;
+text-decoration: none;
+}
+
+.container {
+  padding: 5% 13%;
+  text-align: center;
+
+}
+img {
+	border :1px solid #ddd;
+	border-color:black;
+	border-radius:15px;
+	max-width:200px;
+	height:auto;
+	
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+/* nav bar */
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: flex-end;
+  list-style-type: none;
+ 
+}
+
+nav li {
+  padding: 20px 5px;
+}
+
+nav a {
+  color: darkblue;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: deepskyblue;
+  text-decoration: line-through;
+}
+
+/* header section */
+header {
+  background: linear-gradient(180deg, rgb(255, 255, 255), rgb(205, 237, 254));
+  font-size: 25px;
+  padding: 15% 10%;
+}
+
+header h1 span {
+  color: darkblue;
+  font-family: "Pacifico", cursive;
+  font-size: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header h1 span:hover {
+  color: palevioletred;
+}
+
+/* about me section */
+.about {
+  font-family: "Times New Roman",serif;
+   background: #f0ffff;
+  
+}
+/*skills section*/
+.skills {
+  font-family: "Times New Roman",serif;
+   background: #cafafe;
+}
+
+
+/* my projects  */
+.projects {
+font-family: "Times New Roman",serif;
+ background: #f0ffff;
+}
+
+
+.projects-items {
+  display: flex;
+  flex-wrap: wraps;
+  margin-top: 60px;
+}
+.projects-items .projects .pimages {
+	border :50px solid #ddd;
+	border-color:black;
+	border-radius:15px;
+	max-width:10px;
+	height:auto;
+	
+}
+/* social */
+.social {
+  font-family: "Times New Roman",serif;
+   background: #cafafe;
+}
+
+.social {background: #cafafe;
+   padding: 3% 18%;
+  text-align:center;
+ 
+}
+.social .social-links {
+ margin:0 0 0 0px;
+display: flex;
+}
+
+.social .social-links a {
+  font-size: 40px;
+  display: inline-block;
+  line-height: 0;
+  margin-right: 100px;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.social  .social-links a:hover {
+  color: orange;
+}
+
+.social {
+  display: flex;
+  
+}
+
